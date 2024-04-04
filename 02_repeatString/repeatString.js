@@ -5,7 +5,7 @@ const repeatString = function(string, num) {
         repeatString = "ERROR";
     }
 
-    for (i = 0; i < num; i++) {
+    for (let i = 0; i < num; i++) {
         repeatString += string;
     }
     return repeatString;
@@ -13,7 +13,7 @@ const repeatString = function(string, num) {
 
 const number = Math.floor(Math.random() * 1000)
 
-repeatString("hey", number);
+repeatString("", number);
 
 // Do not edit below this line
 module.exports = repeatString;
