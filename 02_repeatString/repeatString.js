@@ -11,7 +11,9 @@ const repeatString = function(string, num) {
     return repeatString;
 };
 
-repeatString("hey", -1);
+const number = Math.floor(Math.random() * 1000)
+
+repeatString("hey", number);
 
 // Do not edit below this line
 module.exports = repeatString;
