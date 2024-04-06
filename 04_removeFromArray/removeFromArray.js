@@ -1,4 +1,4 @@
-const numberArray = ["hey", 2, 3, "ho"];
+const numberArray = [1, 2, 3];
 
 const removeFromArray = function(array, ...nums) {
     let filteredArray = array.filter(item => { 
