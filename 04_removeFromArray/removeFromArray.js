@@ -1,4 +1,4 @@
-const numberArray = [1, 2, 2, 3, 3, 4, 5];
+const numberArray = ["hey", 2, 3, "ho"];
 
 const removeFromArray = function(array, ...nums) {
     let filteredArray = array.filter(item => { 
@@ -13,7 +13,7 @@ const removeFromArray = function(array, ...nums) {
     return filteredArray;
 };
 
-removeFromArray(numberArray, 1, 2, 3, 4, 5);
+removeFromArray(numberArray, "hey", 3);
 
 // Do not edit below this line
 module.exports = removeFromArray;
