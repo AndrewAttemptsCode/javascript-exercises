@@ -6,7 +6,7 @@ const reverseString = function(text) {
     return string;
 };
 
-reverseString("123123 !%$£");
+reverseString("");
 
 // Do not edit below this line
 module.exports = reverseString;
