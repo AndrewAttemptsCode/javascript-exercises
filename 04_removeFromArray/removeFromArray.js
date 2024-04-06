@@ -13,7 +13,7 @@ const removeFromArray = function(array, ...nums) {
     return filteredArray;
 };
 
-removeFromArray(numberArray, 2, 3);
+removeFromArray(numberArray, 7, "tacos");
 
 // Do not edit below this line
 module.exports = removeFromArray;
