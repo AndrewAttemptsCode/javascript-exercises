@@ -2,7 +2,7 @@ const sumAll = function(num1, num2) {
     if (typeof num1 !== "number" || typeof num2 !== "number") {
         return "ERROR";
     }
-    
+
     if (num1 < 0 || num2 < 0) {
         return "ERROR";
     }
@@ -20,7 +20,7 @@ const sumAll = function(num1, num2) {
     return sum;
 };
 
-sumAll(10, "90");
+sumAll(10, [90, 1]);
 
 // Do not edit below this line
 module.exports = sumAll;
