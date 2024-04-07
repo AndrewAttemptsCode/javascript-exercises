@@ -8,7 +8,7 @@ const convertToCelsius = function(temp) {
 const convertToFahrenheit = function(temp) {
 };
 
-convertToCelsius(100);
+convertToCelsius(-100);
 // convertToFahrenheit(0);
 
 // Do not edit below this line
