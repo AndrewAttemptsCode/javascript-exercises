@@ -13,7 +13,7 @@ const convertToFahrenheit = function(temp) {
 };
 
 convertToCelsius(-100);
-convertToFahrenheit(73.2);
+convertToFahrenheit(-10);
 
 // Do not edit below this line
 module.exports = {
