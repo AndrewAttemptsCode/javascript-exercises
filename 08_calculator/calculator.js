@@ -20,8 +20,12 @@ const power = function(a, b) {
 	return a ** b;
 };
 
-const factorial = function() {
-	
+const factorial = function(number) {
+  if (number === 0 || number === 1) {
+    return 1;
+  } else {
+    return number * factorial(number - 1);
+  }
 };
 
 // Do not edit below this line
